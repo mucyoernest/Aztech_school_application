@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#152769"
+    >
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_marginTop="200dp"
+        android:ems="15"
+        android:layout_centerHorizontal="true"
+        android:hint="Email"
+        android:gravity="center"
+        android:textColor="#000"
+        android:textColorHint="#252D4b"
+        android:background="#6c789f"
+        />
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:ems="15"
+        android:hint="Password"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="260dp"
+        android:textColorHint="#252D4b"
+        android:background="#6c789f"
+
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="320dp"
+        android:layout_marginBottom="340dp"
+        android:background="#BF3419"
+        android:onClick="goto_menu"
+        android:text="LOGIN"
+        android:textColor="@android:color/white"
+        android:textSize="16dp"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="520dp" />
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/alu_logo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Unleash Your Potentials"
+        android:layout_marginTop="130dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/white"
+        android:textSize="16dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" @ AZTech 2020"
+        android:layout_marginTop="700dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="16dp"
+
+        />
+
+
+</RelativeLayout>
