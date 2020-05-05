@@ -1,0 +1,2 @@
+rootProject.name='Aztech_school_application'
+include ':app'
