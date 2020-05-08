@@ -1,18 +1,74 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.aztech_school_application" >
+    package="com.example.aztech_school_application">
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <uses-permission-sdk-23 android:name="android.permission.CAMERA" />
+    <uses-permission-sdk-23 android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:icon="@drawable/alu_logo"
+        android:label="Pocket School"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme" >
-        <activity android:name=".themenu" >
-        </activity>
+        android:theme="@style/AppTheme">
+        <activity android:name=".card_payment"></activity>
+        <activity android:name=".camera" />
+        <activity android:name=".thebook" />
+        <activity
+            android:name=".second_library"
+            android:parentActivityName=".library" />
+        <activity
+            android:name=".library"
+            android:parentActivityName=".themenu" />
+        <activity android:name=".AlarmService1" />
+        <activity
+            android:name=".settings1"
+            android:parentActivityName=".themenu" />
+        <activity
+            android:name=".svp1"
+            android:parentActivityName=".themenu" />
+        <activity
+            android:name=".Registrar"
+            android:parentActivityName=".themenu" />
+        <activity
+            android:name=".content_show"
+            android:parentActivityName=".content_of_courses" />
+        <activity
+            android:name=".content_of_courses"
+            android:parentActivityName=".myclasses" />
+        <activity
+            android:name=".calendar1"
+            android:parentActivityName=".themenu" />
+        <activity
+            android:name=".podcast1"
+            android:parentActivityName=".themenu" />
+        <activity
+            android:name=".success1"
+            android:parentActivityName=".card_payment1" />
+        <activity
+            android:name=".pay1"
+            android:parentActivityName=".themenu" />
+        <activity
+            android:name=".addedtolist"
+            android:parentActivityName=".Events" />
+        <activity
+            android:name=".Events"
+            android:parentActivityName=".themenu" />
+        <activity
+            android:name=".news"
+            android:parentActivityName=".themenu" />
+        <activity
+            android:name=".myclasses"
+            android:parentActivityName=".themenu" />
+        <activity
+            android:name=".courses"
+            android:parentActivityName=".themenu" />
+        <activity android:name=".themenu" />
         <activity android:name=".LoginPage" />
-        <activity android:name=".MainActivity" >
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

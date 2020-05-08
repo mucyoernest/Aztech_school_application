@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".content_show"
+    >
+<LinearLayout
+    android:id="@+id/linearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your content"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <VideoView
+            android:id="@+id/videoView"
+            android:layout_width="fill_parent"
+            android:layout_height="210dp" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Play video"
+        android:textColor="#fff"
+        android:background="#131F56"
+        android:onClick="videplay"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What is a texview ?"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Android TextView with Examples. In android, TextView is a user interface control that is used to set and display the text to the user based on our requirements. The TextView control will act as like label control and it won't allow users to edit the text."
+        android:textSize="12dp"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Android TextView with Examples. In android, TextView is a user interface control that is used to set and display the text to the user based on our requirements. The TextView control will act as like label control and it won't allow users to edit the text."
+        android:textSize="12dp"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Knowledge Check"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:text="which of the following is the right definition of a Textview"
+        />
+    <RadioGroup
+        android:id="@+id/radioSex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        >
+
+        <RadioButton
+            android:id="@+id/radioMale"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textColor="#131F56"
+            android:text="A user interface in Android"
+            android:checked="true" />
+
+        <RadioButton
+            android:id="@+id/option1"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textColor="#131F56"
+            android:text="A java Object" />
+
+
+        <RadioButton
+            android:id="@+id/option2"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textColor="#131F56"
+            android:text="Python Library for android" />
+        <RadioButton
+            android:id="@+id/option4"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textColor="#131F56"
+            android:text="A resource file loader" />
+
+
+        <RadioButton
+            android:id="@+id/option3"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textColor="#131F56"
+            android:text="None of the above" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:textColor="#131F56"
+        android:layout_gravity="center"
+        android:text="Submit"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:textColor="#fff"
+        android:background="#131F56"
+        android:layout_gravity="center"
+        android:text="Next"
+        android:onClick="goto_classes"
+        android:layout_marginBottom="10dp"
+        />
+
+
+</LinearLayout>
+</ScrollView>

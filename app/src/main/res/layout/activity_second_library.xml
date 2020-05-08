@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".second_library"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+
+        >
+        <TextView
+            android:id="@+id/Categories"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Science "
+            android:textSize="30dp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Books in the library"
+            android:textSize="30dp"
+            android:textStyle="bold"
+
+            />
+    </LinearLayout>
+
+
+
+    <ListView
+        android:id="@+id/books"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginTop="1dp"
+        android:dividerHeight="10.0sp"
+
+        />
+
+</LinearLayout>

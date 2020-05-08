@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="#1e1e1e"
+    tools:context=".content_of_courses"
+
+    >
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_vertical">
+        <TextView
+            android:id="@+id/course_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Welcome to Sotware development "
+            android:textSize="16dp"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="fill_parent"
+
+        android:background="#121212"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+
+        android:layout_height="70dp">
+        <TextView
+            android:id="@+id/course"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Course content"
+            android:textSize="30dp"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+
+    <ListView
+        android:id="@+id/contentlist"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginTop="1dp"
+        android:dividerHeight="10.0sp"
+
+
+        />
+
+</LinearLayout>

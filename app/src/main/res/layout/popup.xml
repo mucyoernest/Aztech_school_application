@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#131F56"
+    android:padding="10px">
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:orientation="vertical"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        >
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Response recorded !"
+        android:textColor="#fff"/>
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/closePopupBtn"
+        android:layout_width="50dp"
+        android:layout_height="20dp"
+        android:background="#C81B05"
+        android:layout_gravity="center_horizontal"
+
+        android:textColor="#fff"
+        android:layout_marginBottom="20dp"
+        android:textSize="10dp"
+        android:text="Close" />
+
+</LinearLayout>
+    </LinearLayout>

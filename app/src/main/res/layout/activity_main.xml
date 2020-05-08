@@ -17,7 +17,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/alu_logo"
-            android:layout_marginTop="265dp"
+            android:layout_marginTop="220dp"
             android:layout_gravity="center"
             />
 
@@ -31,19 +31,9 @@
             android:fontFamily="sans-serif"
             android:text="Do Hard Things"
             android:textColor="#CB392D"
+            android:textSize="25dp"
+            android:textStyle="bold"
 
-            />
-
-        <Button
-            android:id="@+id/button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Login"
-            android:layout_gravity="center"
-            android:layout_marginTop="40dp"
-            android:layout_marginLeft="3dp"
-            android:fontFamily="sans-serif"
-            android:onClick="change_page"
             />
 
 

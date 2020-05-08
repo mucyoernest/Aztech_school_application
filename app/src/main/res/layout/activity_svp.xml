@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".svp1">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="16dp"
+                android:background="#C81B05"
+                android:gravity="center"
+                android:text="Student Ventures Program"
+                android:textAllCaps="true"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="404dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="16dp"
+                android:onClick="openBrowser"
+                android:orientation="vertical"
+                android:tag="https://learn.alueducation.com/"
+                >
+
+                <ImageView
+                    android:id="@+id/imageView17"
+                    android:layout_width="300dp"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_gravity="center"
+                    android:onClick="openBrowser"
+                    android:src="@drawable/news"
+                    android:tag="https://learn.alueducation.com/"
+                    app:srcCompat="@drawable/svp" />
+
+                <TextView
+                    android:layout_width="300sp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:onClick="openBrowser"
+                    android:tag="https://learn.alueducation.com/"
+                    android:text="Find out the latest opportunities"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:textSize="20dp" />
+
+                <Button
+                    android:layout_width="214dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:background="#C81B05"
+                    android:onClick="openBrowser"
+                    android:tag="https://learn.alueducation.com/"
+                    android:text="visit opportunity bank"
+                    android:textColor="#fff"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="361dp"
+                android:layout_height="69dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="Resources"
+                android:textAllCaps="true"
+                android:textColor="#700404"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                />
+
+
+
+
+            <TextView
+                android:id="@+id/textView73"
+                android:layout_width="464dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="16dp"
+                android:background="#C81B05"
+                android:gravity="center"
+                android:text="click To book office hours"
+                android:textAllCaps="true"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:onClick="openBrowser"
+                android:tag="https://calendar.google.com/calendar/selfsched?sstoken=UUkzUG1VSzVENkxwfGRlZmF1bHR8NzkyZDA0M2M3MGIwNGRkMWU4NTc4NzU4YzcxMzgxMDE"/>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

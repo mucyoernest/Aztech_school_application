@@ -6,33 +6,34 @@
     android:layout_height="match_parent"
     android:background="#152769"
     >
+
     <EditText
         android:id="@+id/email"
         android:layout_width="wrap_content"
         android:layout_height="45dp"
-        android:layout_marginTop="200dp"
-        android:ems="15"
         android:layout_centerHorizontal="true"
-        android:hint="Email"
-        android:gravity="center"
-        android:textColor="#000"
-        android:textColorHint="#252D4b"
+        android:layout_marginTop="200dp"
         android:background="#6c789f"
-        />
+        android:ems="15"
+        android:gravity="center"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textColor="#000"
+        android:textColorHint="#252D4b" />
 
     <EditText
         android:id="@+id/pass"
         android:layout_width="wrap_content"
         android:layout_height="45dp"
-        android:ems="15"
-        android:hint="Password"
         android:layout_centerHorizontal="true"
-        android:gravity="center"
         android:layout_marginTop="260dp"
-        android:textColorHint="#252D4b"
         android:background="#6c789f"
+        android:ems="15"
+        android:gravity="center"
+        android:hint="Password"
+        android:inputType="textWebPassword"
 
-        />
+        android:textColorHint="#252D4b" />
 
     <Button
         android:id="@+id/button"
@@ -73,13 +74,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text=" @ AZTech 2020"
-        android:layout_marginTop="700dp"
+        android:layout_marginTop="560dp"
         android:layout_centerHorizontal="true"
         android:layout_gravity="center"
         android:gravity="center"
         android:textColor="@android:color/white"
         android:textSize="16dp"
-
         />
 
 

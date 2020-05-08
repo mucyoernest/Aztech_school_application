@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f2f2f2"
+    tools:context=".myclasses">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+
+            android:text="Welcome to your Classroom"
+            android:textSize="25dp"
+            android:textColor="#34495E"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:text="Name = Kolotioloma Soro"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:text="Faculty : Computer Science"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:text="Year of Enrollment : 2017"
+            />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:textStyle="bold|italic"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:text="The classes are the classes you are enrolled in.PLease make sure to check the material inside by clicking the Go to class button"
+            android:gravity="center_horizontal" />
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="400dp"
+            android:layout_height="70dp"
+            android:onClick="goto_classes"
+            android:background="@drawable/shadow3"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:gravity="center_vertical"
+            >
+            <ImageView
+                android:layout_marginLeft="30dp"
+                android:id="@+id/imageView17"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/android" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MOBILE DEVELEOPMENT"
+                android:layout_marginLeft="10dp"
+                />
+
+            <Button
+                android:layout_width="90dp"
+                android:layout_height="20dp"
+                android:text="Go to class"
+                android:onClick="goto_classes"
+                android:textSize="10dp"
+                android:textColor="#FFF"
+                android:background="#C81B05"
+                android:layout_margin="15dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="400dp"
+            android:layout_height="70dp"
+            android:background="@drawable/shadow3"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:onClick="goto_classes"
+            android:gravity="center_vertical"
+            >
+            <ImageView
+                android:id="@+id/imageView19"
+                android:layout_marginLeft="30dp"
+
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ai" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ARTFICIAL INTELLIGENCE"
+                android:layout_marginLeft="10dp"
+                />
+
+            <Button
+                android:layout_width="90dp"
+                android:layout_height="20dp"
+                android:onClick="goto_classes"
+                android:text="Go to class"
+                android:textSize="10dp"
+                android:textColor="#FFF"
+                android:background="#C81B05"
+                android:layout_marginLeft="10dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="400dp"
+            android:layout_height="70dp"
+            android:background="@drawable/shadow3"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:onClick="goto_classes"
+            android:gravity="center_vertical"
+            >
+            <ImageView
+                android:id="@+id/imageView18"
+                android:layout_width="50dp"
+                android:layout_marginLeft="30dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/html" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="COMPUTER NETWORKING"
+                android:layout_marginLeft="10dp"
+                />
+
+            <Button
+                android:layout_width="90dp"
+                android:layout_height="20dp"
+                android:text="Go to class"
+                android:textSize="10dp"
+                android:textColor="#FFF"
+                android:background="#C81B05"
+                android:onClick="goto_classes"
+                android:layout_marginLeft="8dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="400dp"
+            android:layout_height="70dp"
+            android:background="@drawable/shadow3"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:gravity="center_vertical"
+            android:onClick="goto_classes"
+            >
+            <ImageView
+                android:id="@+id/imageView20"
+                android:layout_width="50dp"
+                android:layout_marginLeft="30dp"
+
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/cloud" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CLOUD COMPUTING"
+                android:layout_marginLeft="10dp"
+                />
+
+            <Button
+                android:layout_width="90dp"
+                android:layout_height="20dp"
+                android:text="Go to class"
+                android:textSize="10dp"
+                android:textColor="#FFF"
+                android:background="#C81B05"
+                android:onClick="goto_classes"
+                android:layout_marginLeft="45dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

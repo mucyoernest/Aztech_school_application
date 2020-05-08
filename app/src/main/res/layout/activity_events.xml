@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="#F2F5F9"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="This is a list of current events that be held in the nex two weeks. Click attend to be added to the list of attendees"
+        android:textSize="16dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textStyle="bold"/>
+
+    <ListView
+        android:id="@+id/eventlist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginTop="10dp"
+        android:dividerHeight="10.0sp" />
+
+</LinearLayout>

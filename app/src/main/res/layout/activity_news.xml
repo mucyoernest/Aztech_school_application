@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    tools:context=".news">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:onClick="goTonews"
+        android:orientation="vertical">
+        <ImageView
+            app:srcCompat="@drawable/camp"
+            android:id="@+id/imageView17"
+            android:layout_width="300dp"
+            android:layout_gravity="center"
+            android:layout_height="150dp"
+            android:layout_marginTop="110dp"
+            />
+        <TextView
+            android:layout_width="300sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:layout_marginTop="20dp"
+            android:text="Don't miss any of update and blog post from your school"
+            android:textSize="20dp"
+            android:gravity="center_horizontal" />
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:layout_width="200dp"
+            android:layout_gravity="center"
+            android:text="VIEW NEWSLETTER"
+            android:background="#C81B05"
+            android:textColor="#fff"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</RelativeLayout>
